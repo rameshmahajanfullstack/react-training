@@ -1,10 +1,10 @@
-import Containers from './containers'
+import Routes from './routes'
+
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 function App() {
   return (
-    <Containers.Wrapper>
-      <Containers.About />
-    </Containers.Wrapper>
+    <Routes />
   )
 }
 
